@@ -77,12 +77,31 @@ def lift_off(weight,fuel):
 
 # create a function that takes in the weather: sunny, rainy, cold, and hot
 # output what type of food you should eat based on the weather
+def what_should_i_eat(weather):
+    if weather == 'sunny':
+        print('some food')
+    elif weather == 'rainy':
+        print('some food')
+    elif weather == 'cold':
+        print('some food')
 
 # mild: add temperature as an additional argument
 
-# spicy: add temperature and time of day as arguments
+# just add info to conditionals
+# if weather == 'sunny' and temp > 60:
 
-
+# spicy: add temperature and time of day as input but not as arguments
+def what_should_i_eat():
+    weather = ['sunny', 'rainy', 'snow', 'fog']
+    # when called, the user will see this list printed
+    for x in weather:
+        print 'here are your choices', x
+    # get the user input
+    weather_choice = input('what weather did you pick?')
+    # to normalize user input all to lower case
+    weather_choice = weather_choice.lower()
+    # repeat for temp
+    # then just add conditionals
 # who_am_i
 
 # create a function that asks your user several questions
