@@ -1,6 +1,6 @@
 # Basic Custom Functions
 
-[Return to Overview](../README.md)
+[Return to Overview](https://github.com/kyle1james/teacher_docs_coding_bootcamp/blob/master/README.md)
 
 #### Sequence
 
