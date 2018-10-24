@@ -1,4 +1,4 @@
-# Basic Custom Functions
+# Multi Case Conditionals
 
 [Return to Overview](./README.md)
 
