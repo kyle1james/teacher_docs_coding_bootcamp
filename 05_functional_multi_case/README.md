@@ -115,13 +115,12 @@ else:
 For this program, there is a logical error. The elif statement can never fire. Have students predict the outcome of this program. Ask students to come up with an explanation for why the elif statement can never fire and then ask students to describe a solution to this programs bug.
 
 Break for practice lab
-# NOTE HELP FOR CREATING FUNCTIONAL GAME RATHER THAN OOP
 
-# Design Cycle for Programming
+## Design cycle for Programming
 
-## Oregon Trail Reboot: We're going to Mars
+### Oregon Trail Reboot: We're going to Mars
 
-### Research
+#### Research
 Show students a brief example of Oregon trail
 [fun](https://classicreload.com/oregon-trail.html)
 
@@ -134,7 +133,7 @@ What do you need in order to create this game.
 
 
 
-### Drafting Code Along
+#### Drafting Code Along
 What is the MVP of Oregon trail? What is the most basic functional game?
 
 - Functional programming
@@ -154,14 +153,14 @@ def pick_job(player1):
 ```
 
 
-### Creating Code Along
+#### Creating Code Along
 Create the first two functions together
 
 - pick job
 - launch
 
 
-### Testing
+#### Testing
 
 Beta test your project by having other students play your game.
 Incorporate their feedback into your game
