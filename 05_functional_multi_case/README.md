@@ -6,7 +6,7 @@
 
 1. [Review](#Review)
 2. [Operators](#operators)
-3. [Design Cycle](#design-cycle)
+3. [Design Cycle](#Design_cycle_for_programming)
 
 
 ## Review
@@ -116,7 +116,7 @@ For this program, there is a logical error. The elif statement can never fire. H
 
 Break for practice lab
 
-## Design cycle for Programming
+## Design cycle for programming
 
 ### Oregon Trail Reboot: We're going to Mars
 
@@ -170,4 +170,4 @@ Incorporate their feedback into your game
 
 
 
-##Break for multi_case lab
+## Break for multi_case lab
