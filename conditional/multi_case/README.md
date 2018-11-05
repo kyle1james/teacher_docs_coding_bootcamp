@@ -56,13 +56,17 @@ Consider the following operators:
 These operators help make more complex decisions.
 
 ### And
+Ask students to predict the output of the following code based on current time and weather.
+
 ```python
-if weather == 'warm' and time_of_day == 'afternoon':
+if weather == 'warm' and pool == 'outside':
   print('go to the pool')
 ```
 This condition equates two logical statements. If both are true, the condition is met and we fire the code below. If one if true and one is false, we aren't going to the pool.
 
-That's nice, but I don't mind swimming if in an inside pool if it is cold.
+That's nice, but I don't mind swimming in an inside pool if it is cold. How could I change the above code to program that?
+
+Ask students to describe ways to have an OR statement before introducing the OR statement.
 ### Or
 
 ```python
@@ -72,9 +76,9 @@ if weather == 'warm' or pool == 'inside':
 This condition equates two logical statements. If one is true, the condition is met and we fire the code below.
 
 ```python
-dogs = 7
-cats = 8
-puppers = 10
+dogs = 0
+cats = 1
+puppers = 2
 
 if (dogs > cats) or (puppers > cats):
   print('We should get more cats')
@@ -94,9 +98,9 @@ Questions to ask:
 
 
 ```python
-dogs = 7
-cats = 8
-puppers = 10
+dogs = 0
+cats = 1
+puppers = 2
 
 if (dogs > cats) or (cats < puppers):
   print('We should get more cats')
@@ -109,4 +113,53 @@ else:
 
 For this program, there is a logical error. The elif statement can never fire. Have students predict the outcome of this program. Ask students to come up with an explanation for why the elif statement can never fire and then ask students to describe a solution to this programs bug.
 
-Break for multi_case lab
+Break for practice lab
+# NOTE HELP FOR CREATING FUNCTIONAL GAME RATHER THAN OOP
+
+# Design Cycle for Programming
+
+## Oregon Trail Reboot: We're going to Mars
+
+### Research
+Show students a brief example of Oregon trail
+[fun](https://classicreload.com/oregon-trail.html)
+
+What do you need in order to create this game.
+
+- input: how will you get data/ what data do you need?
+- output: how will you change the data to progress the game?
+- control flow: how will you control the data?
+- ending conditions: how do you win or lose?
+
+
+
+### Drafting
+What is the MVP of Oregon trail? What is the most basic functional game?
+
+- Functional programming
+- Limited choices
+- Clear win and clear lose conditions
+
+Create the boiler plate code together with comments as TODO's
+
+```Python
+def pick_job(player1):
+  # print out all choices for player to see
+
+  # get user input for job & save in a variable
+
+  # if/else to assign points based on choice
+
+```
+
+
+### Creating
+
+
+### Testing
+
+
+
+
+
+##Break for multi_case lab
