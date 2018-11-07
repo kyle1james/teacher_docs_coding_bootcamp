@@ -139,7 +139,7 @@ What is the MVP of Oregon trail? What is the most basic functional game?
 
 - Functional programming
 - Limited choices
-- Clear win and clear lose conditions
+- Clear win and clear end conditions
 
 Create the boiler plate code together with comments as TODO's
 
@@ -151,24 +151,59 @@ def pick_job(player1):
 
   # if/else to assign points based on choice
 
+def launch(player1):
+  # print out all choices for player to see
+
+  # get user input for job & save in a variable
+
+  # if/else to assign points based on choice
+
 ```
 
 
 #### Creating Code Along
-Create the first two functions together
+Create the first two functions together.
 
 - pick job
 - launch
 
+```python
+def pick_job(player1):
+  # print out all choices for player to see
+  jobs = ['dog trainer: food 100, 02, 100', 'teacher: food 150, 02: 75']
+  for j in jobs:
+      print(j)
+
+  # get user input for job & save in a variable
+  job = input('what job do you want t/d: \n')
+  # if/else to assign points based on choice
+  if job == 'd':
+      player1 = [100,100,100,0]
+  elif job == 't':
+      player1 = [100,150,75,0]
+  else:
+      print('nope')
+  # return new values
+  print('your stats are as follows\n health at', player1[0], '\n time at', player1[-1])
+  return player1
+
+
+def launch(player1):
+    launch = False
+    l_status = input('the weather is bad. Launch or wait\n type launch or wait: ')
+
+    if l_status == 'wait':
+        print('you waited 3 days for a clear launch')
+        player1[-1] = 3
+        print('it was an easy ride up. Your health is now', player1[0], 'and your time is now', player1[-1], 'days')
+        return player1
+    elif l_status == 'launch':
+        player1[-1] = 1
+        player1[0] = player1[0] - 25
+        print('it was a rough ride up. Your health is now', player1[0])
+        return player1
+```
 
 #### Testing
 
-Beta test your project by having other students play your game.
-Incorporate their feedback into your game
-- Outline what changes you made
--
-
-
-
-
-## Break for multi_case lab
+Beta test your project by having other students play your game and then conduct an empathy interview.
