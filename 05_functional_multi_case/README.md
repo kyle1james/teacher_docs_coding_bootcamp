@@ -11,14 +11,15 @@
 
 ## Review
 
-While writing code in any language, you will have to control the flow of your program. This is generally the case when there is decision making involved - you will want to execute a certain line of codes if a condition is satisfied, and a different set of code incase it is not. In Python, you have the if, elif and the else statements for this purpose [source](https://www.datacamp.com/community/tutorials/python-if-elif-else)
+When you create a program, you will have to control the direction your program heads. That is, how does your input transform into the output. For example, when making decisions you will want to execute a certain line of code if one condition is satisfied, and a different set of code if it is not. In Python, you have the if, elif and the else statements for this purpose [source](https://www.datacamp.com/community/tutorials/python-if-elif-else)
 
+- The if statement starts the if/else
 - You can have zero or more elif statements
 - You can have one or no else statement
 - The elif keyword is a way of saying "if the previous conditions were not true, then try this condition".
 - The else statement should be the final case. There are no conditions following an else
 
-The syntax for and if else statement is as follows
+The syntax for an if/else statement is as follows
 ```python
 if(condition):
       #Indented statement block for when condition is TRUE
