@@ -8,9 +8,8 @@
 2. [A deeper look](#a-deeper-look)
 3. [Operators](#operators)
 4. [Strings](#strings)
-5. [Transformations](#transformations)
-6. [String interpolation](#string-interpolation)
-7. [Booleans](#returns-as-breakpoints)
+5. [String interpolation](#string-interpolation)
+6. [Booleans](#returns-as-breakpoints)
 
 # What is programming
 What is programming and how does it work? A program can be said to be broken into a few main parts:
@@ -136,14 +135,42 @@ monthly_income = 20000
 - find yearly income
 - find end of the year back_account total
 
-### Break for Lab
+### Break for Lab One
 
 ## Strings
+In python, strings are a list of characters that are immutable- meaning that once strings are defined they can not be changed. You can, however, modify a string and save it to a new variable!
+
+One work around to this problem is string interpolation
+
+### String interpolation
+String interpolation places a variable inside a string. This way, as the variable changes the string will too!
+
+- Have students code along
+
+```python
+name = 'Estelle'
+print('My pet is named', name)
+```
+
+- Have students predict how to change this string?
+
+
 ### Getting User Input
+To get user input in python is a rather simple task. You simple use a built-in command called input()
 
-## Transformations
+- Have students code along with you the following snippet
+- Have students predict what the outcome of the program will be
 
-## String interpolation
+```python
+name = input('what is the name of your pet')
+print('My pet is named', name)
+```
+
+- Have students write code for the age of their dog
+
+```python
+age = input('what is the age of your pet')
+name = input('what is the name of your pet')
 
 ### Break for Lab
 
