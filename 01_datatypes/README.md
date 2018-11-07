@@ -30,6 +30,23 @@ Variables are used to store data to be referenced and manipulated in a computer 
 Typically, a program consists of instructions that tell the computer what to do and data that the program uses when it is running
 
 ### Assigning Value to Variables
+
+In computer science, a variable stores some sort of information. Think of a variable like a magic box. The information inside the box can be numbers, words, true, false, etc.
+
+In python, to define a variable you give a name and then a value. The name is always on the left side and the value is always on the right side. For example,
+
+```python
+how_many_dogs = 0
+puppies = 8
+borkers = 10
+
+```
+To access the value inside the variable, one simply uses the name of the variable.
+
+```python
+print(how_many_dogs)
+# >>> 0
+```
 There are four primary data types in programming:
 
 | Data type     | Example       | Assigning    |
@@ -70,24 +87,6 @@ else:
 Congrats! You read your first program!
 
 ## A deeper look
-
-
-In computer science, a variable stores some sort of information. Think of a variable like a magic box. The information inside the box can be numbers, words, true, false, etc.
-
-In python, to define a variable you give a name and then a value. The name is always on the left side and the value is always on the right side. For example,
-
-```python
-how_many_dogs = 0
-puppies = 8
-borkers = 10
-
-```
-To access the value inside the variable, one simply uses the name of the variable.
-
-```python
-print(how_many_dogs)
-# >>> 0
-```
 
 But what if you need to change what is inside a variable?
 
