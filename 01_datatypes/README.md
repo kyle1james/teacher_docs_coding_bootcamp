@@ -50,6 +50,25 @@ For now, we will be working from the top down. Meaning, that your program will r
 - [source](https://en.wikipedia.org/wiki/Control_flow)
 
 
+Have students look at the following code and pick out the variables and their data types, and identify control flow.
+
+Have students predict the outcome of this program
+
+```python
+
+pie_price = 3.14
+name = 'Christina Tosi'
+employed = True
+number_of_pies_to_make = 32
+
+if pie_price > 3:
+  print(name, 'will make', number_of_pies_to_make)
+else:
+  print('no one will make pies for that cheap!')
+
+```
+Congrats! You read your first program!
+
 ## A deeper look
 
 
