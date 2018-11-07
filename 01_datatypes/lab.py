@@ -27,4 +27,14 @@
 
 # what if you have kids that cost 100000 a year?
 
-################### Lab Two ###########################################################################
+################### Lab Two: Mad libs ###########################################################################
+# create two variables to get adverbs from your user
+
+# create two variables to get verbs from your user
+
+# create three variables to get adjectives from your user
+
+# create one variable to get a noun from your user
+
+
+# Using string interpolation, create a madlibs with your new variables
