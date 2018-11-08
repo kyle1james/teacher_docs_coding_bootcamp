@@ -100,20 +100,14 @@ Questions to ask:
 
 
 ```python
-dogs = 0
-cats = 1
-puppers = 2
 
-if (dogs > cats) or (cats < puppers):
-  print('We should get more cats')
-elif (cats < puppers) and (dogs < puppers):
-  print('We should get more puppies')
+if (age >= 18) and (citizen == 'American'):
+  print('You can vote!')
+elif (age < 18) and (citizen == 'American'):
+  print('You can not vote yet, but soon!')
 else:
-  print('We should get more dogs')
-
+  print('Sorry, you can not vote here)
 ```
-
-For this program, there is a logical error. The elif statement can never fire. Have students predict the outcome of this program. Ask students to come up with an explanation for why the elif statement can never fire and then ask students to describe a solution to this programs bug.
 
 Break for practice lab
 

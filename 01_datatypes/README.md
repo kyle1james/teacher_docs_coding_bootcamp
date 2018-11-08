@@ -4,174 +4,43 @@
 
 #### Sequence
 
-1. [What is Programming](#what-is-programming)
-2. [A deeper look](#a-deeper-look)
-3. [Operators](#operators)
-4. [Strings](#strings)
-5. [String interpolation](#string-interpolation)
-6. [Booleans](#returns-as-breakpoints)
+1. [Intro](#strings)
+2. [Lab](#lab)
 
-# What is programming
-What is programming and how does it work? A program can be said to be broken into a few main parts:
 
-- data
-- instructions
 
-OR
+## Intro
 
-- input
-- what to do with the input
-- output
-
-### Variables
-Variables are used to store data to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program. [source](https://launchschool.com/books/ruby/read/variables)
-
-Typically, a program consists of instructions that tell the computer what to do and data that the program uses when it is running
-
-### Assigning Value to Variables
-
-In computer science, a variable stores some sort of information. Think of a variable like a magic box. The information inside the box can be numbers, words, true, false, etc.
-
-In python, to define a variable you give a name and then a value. The name is always on the left side and the value is always on the right side. For example,
+First, code the following. Have students wait until you are done to do the same but for their name.
 
 ```python
-how_many_dogs = 0
-puppies = 8
-borkers = 10
-
+print('hello Kyle')
 ```
-To access the value inside the variable, one simply uses the name of the variable.
+
+Awesome, now while this great, it can get very boring very quick. Imagine you have to say hello to 1000 people. Who wants to write 1000's hello's!? There has got to be a better way.
 
 ```python
-print(how_many_dogs)
-# >>> 0
+name = 'Kyle'
+print('hello '+ name)
 ```
-There are four primary data types in programming:
 
-| Data type     | Example       | Assigning    |
-| ------------- |:-------------:| ------------:|
-| int           | 110           | a = 30       |
-| float         | 110.010101    | a = 1.0101   |
-| boolean       | True or False | tacos = true |
-| string        | "words"       | hi = 'hello' |
+- have students predict what will happen
+- ask students what name did?
 
-In computer science and computer programming, a data type or simply type is a classification of data which tells the computer how the programmer intends to use the data. [source](https://en.wikipedia.org/wiki/Data_type)
+Very cool, name is a variable. In computer science, a variable stores some sort of information. Think of a variable like a magic box. When we look inside the box, we see what data is inside.
 
-### Control Flow
+When we use words in quotes, we call this a string.
 
-In computer science, control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.
-
-For now, we will be working from the top down. Meaning, that your program will read and execute line by line starting with line one until it reaches the end.
-
-- [source](https://en.wikipedia.org/wiki/Control_flow)
-
-
-Have students look at the following code and pick out the variables and their data types, and identify control flow.
-
-Have students predict the outcome of this program
+Let's code a few variables together. Ask students, make sure to stay with string datatypes!
 
 ```python
+name = 'Kyle'
+food = 'Pizza'
 
-pie_price = 3.14
-name = 'Christina Tosi'
-employed = True
-number_of_pies_to_make = 32
-
-if pie_price > 3:
-  print(name, 'will make', number_of_pies_to_make)
-else:
-  print('no one will make pies for that cheap!')
-
-```
-Congrats! You read your first program!
-
-## A deeper look
-
-But what if you need to change what is inside a variable?
-
-```python
-how_many_dogs = borkers + puppies
-```
-- ask students how can you see what is inside how_many_dogs (use print())
-- ask students to predict the outcome of the following code
-
-```python
-borkers = 10
-puppies = 10
-how_many_dogs = borkers + puppies
-how_many_dogs = 0
-print(how_many_dogs)
+print('hello my name is '+name+'and I love '+ food)
 ```
 
-What is important is that variables change- they are variable. In the example above we added borkers to puppies by using their names and the addition operator. We then saved the answer inside the variable how_many_dogs. The value of how_many_dogs changed while borkers and puppies stayed the same.
+Run the program and change the variables based on students in the class.
 
-Variables change all the time and this is a central part of programming, changing data based on new data. Exciting!
-
-
-## Operators
-
-#### Arithmetic Operator
-
-Operator     | Meaning
------------- | ------------
-x + y  | Adds values on either side of the operator
-x - y  | Subtracts right hand operand from left hand operand
-x * y  | Multiplies values on either side of the operator
-x // y | Divides left hand operand by right hand operand
-x % y  | Modulus Divides left hand operand by right hand operand and returns remainder
-x ** y | Performs exponential (power) calculation on operators
-
-
-- ask students to guess what other mathematical operations you can preform
-- run through subtraction, multiplication, and division.
-- have students preform simple maths on large numbers
-
-```python
-bank_account = 1000000
-monthly_bills = 10000
-monthly_income = 20000
-```
-- find yearly bills cost
-- find yearly income
-- find end of the year back_account total
-
-### Break for Lab One
-
-## Strings
-In python, strings are a list of characters that are immutable- meaning that once strings are defined they can not be changed. You can, however, modify a string and save it to a new variable!
-
-One work around to this problem is string interpolation
-
-### String interpolation
-String interpolation places a variable inside a string. This way, as the variable changes the string will too!
-
-- Have students code along
-
-```python
-name = 'Estelle'
-print('My pet is named', name)
-```
-
-- Have students predict how to change this string?
-
-
-### Getting User Input
-To get user input in python is a rather simple task. You simple use a built-in command called input()
-
-- Have students code along with you the following snippet
-- Have students predict what the outcome of the program will be
-
-```python
-name = input('what is the name of your pet')
-print('My pet is named', name)
-```
-
-- Have students write code for the age of their dog
-
-```python
-age = input('what is the age of your pet')
-name = input('what is the name of your pet')
-```
-### Break for Lab Two
-
-## Booleans
+## Go to Lab One
+Today you are going to create a madlib program.
