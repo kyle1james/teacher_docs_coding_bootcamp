@@ -22,11 +22,10 @@
 # How many years of sleep is that?
 
 ################### All together ###########################################################################
-# Get the users birth year, and tell them the following
-# In a string interpolated message
+# Get the users birth year, and tell them the following in a string interpolated message
 
 # How many slices of pizza they have ate in their life
-# How much older Cleopatra is
-# How many years of sleep they have had
+# How much older Cleopatra is than them
+# How many years of sleep they have had so far
 # How many slices of pizza they will eat in 10 years
-# How many years of sleep they will have in the next 10 years
+# How many days of sleep they will have in the next 10 years

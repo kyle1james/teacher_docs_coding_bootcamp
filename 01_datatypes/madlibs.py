@@ -1,3 +1,5 @@
+################### Madlibs ###########################################################################
+
 # create a variable for name
 
 # create a two adverb variables
@@ -15,8 +17,9 @@ madlib_two = ",sources close to pistachio-eater "
 madlib_three = "confirmed Wednesday that he had achieved a complete state "
 madlib_four = "while snacking on the shelled seeds. "
 
-
 # string it all together now!
+
+################### User Input ###########################################################################
 
 # create your own madlib using user input!
 
@@ -26,7 +29,7 @@ madlib_four = "while snacking on the shelled seeds. "
 
 # collect one adjective from the user and save it in a variables
 
-# string it all together
+# string it all together in a madlib
 
 # if you are having a hard time use the following string for your madlib
 
