@@ -119,6 +119,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 Ask where is the error
 - Traceback tells us where:
+
 Ask what the problem is
 - TypeError gives us the error
 
