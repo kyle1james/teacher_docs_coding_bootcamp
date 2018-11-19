@@ -8,7 +8,7 @@
 2. [String Interpolation](#string-interpolation)
 3. [User Input](#user-input)
 4. [Lab](#madlib-lab)
-5. [Day Two](# day_two)
+5. [Day Two](#day_two)
 6. [Operators](#operators)
 7. [Debugging](#debugging)
 
