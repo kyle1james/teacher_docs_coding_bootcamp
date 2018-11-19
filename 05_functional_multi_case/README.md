@@ -6,7 +6,8 @@
 
 1. [Review](#Review)
 2. [Operators](#operators)
-3. [Design Cycle](#Design-cycle-for-programming)
+3. [Day Two](#day_two)
+4. [Design Cycle](#Design-cycle-for-programming)
 
 
 ## Review

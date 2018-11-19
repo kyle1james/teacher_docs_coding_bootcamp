@@ -108,7 +108,7 @@ Have students predict the outcome of this program
 ```python
 
 your_num = input('give me a num')
-print(0 + '3')
+print(0 + your_num)
 ```
 
 Break it down:
