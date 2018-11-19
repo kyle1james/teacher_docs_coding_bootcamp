@@ -8,8 +8,8 @@
 2. [String Interpolation](#string-interpolation)
 3. [User Input](#user-input)
 4. [Lab](#madlib-lab)
-5. [Operators][#operators]
-6. [Debugging][#debugging]
+5. [Operators](#operators)
+6. [Debugging](#debugging)
 
 
 ## Intro
