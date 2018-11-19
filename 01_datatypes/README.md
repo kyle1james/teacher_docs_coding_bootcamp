@@ -8,8 +8,9 @@
 2. [String Interpolation](#string-interpolation)
 3. [User Input](#user-input)
 4. [Lab](#madlib-lab)
-5. [Operators](#operators)
-6. [Debugging](#debugging)
+5. [Day Two](# day_two)
+6. [Operators](#operators)
+7. [Debugging](#debugging)
 
 
 ## Intro
@@ -78,6 +79,7 @@ Today you are going to create a madlib program.
 
 - explain what is a madlib
 
+# Day Two
 ## Operators
 
 Have students predict the outcome:
