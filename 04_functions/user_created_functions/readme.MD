@@ -1,51 +1,62 @@
 
 # Basic Custom Functions
  [Return to Overview](https://github.com/kyle1james/teacher_docs_coding_bootcamp/blob/master/README.md)
- #### Sequence
- 1. [Framing](#framing)
+
+#### Sequence
+1. [Framing](#framing)
 2. [Terminology](#terminology)
 3. [Multiple-argument Methods](#multiple-argument-methods)
 4. [Methods Without Arguments](#methods-without-arguments)
 5. [Methods With Multiple Returns](#methods-with-multiple-returns)
 6. [Methods Without Returns](#methods-without-returns)
 7. [Returns as Breakpoints](#returns-as-breakpoints)
- ## Framing
- We've already been using methods - but they are all built into the core of Python, like len() and range() all take in an **argument** as *input* and produce some data called a **return value** as an *output*.
- So far, you've seen methods used like this:
+
+## Framing
+We've already been using methods - but they are all built into the core of Python, like len() and range() all take in an **argument** as *input* and produce some data called a **return value** as an *output*.
+
+
+So far, you've seen methods used like this:
 * methodName(argument) => returnValue
 * len("shiba") => 5
- Consider the following methods:
- ```python
+
+Consider the following methods:
+```python
 len("shiba")
 ```
 This method takes in a string "shiba" as an argument, and returns an integer 5 as a return value.
- ```python
-"Taylor".upper()
+
+```python
+"james".upper()
 ```
-This method takes in a string "Taylor" as an argument, and returns the string 'TAYLOR' as a return value.
- But even though methods like this are built-in, if we want to build powerful programs, we'll need to create some custom methods.
- ## Terminology
- #### Defining a method
+This method takes in a string "James" as an argument, and returns the string 'JAMES' as a return value.
+
+But even though methods like this are built-in, if we want to build powerful programs, we'll need to create some custom methods.
+
+## Terminology
+#### Defining a method
  Here's the general form for DEFINING a method:
+
  ```python
 # DEFINE a method
 def methodName(parameters, separated, by, commas):
   internalCode
   return return_value
  ```
- So with that in mind, try to name the parts of this function
- ```python
+So with that in mind, try to name the parts of this function
+
+```python
 def shout(name):
   name = name.upper()
   return "HELLO",name,"!"
  ```
- Questions to ask:
+Questions to ask:
 * What is the name of this method?
 * How many parameters does this method have?
 * What datatype will we use for the name parameter? *reference the anchor chart*
 * What datatype is the return value?
- #### Calling a method
- ```python
+
+#### Calling a method
+```python
 # DEFINE the method
 def shout(name):
   name = name.upper()
@@ -53,35 +64,56 @@ def shout(name):
  # CALL the method (use it)
 shout("Britney")
 ```
- When we **call** a method, the data we fill in for the parameter is called an **argument**. What datatype is the argument we provided?
- Ask students to predict what will come out - most will say "BRITNEY!". This is an intentional error. Run the program and identify that nothing comes out. Then ask "What did we do to make information print out to the console?" Refactor the program with a `print` wrapped around the call.
- ```python
+When we **call** a method, the data we fill in for the parameter is called an **argument**. What datatype is the argument we provided?
+
+
+Ask students to predict what will come out - most will say "BRITNEY!". This is an intentional error. Run the program and identify that nothing comes out. Then ask "What did we do to make information print out to the console?" Refactor the program with a `print` wrapped around the call.
+
+```python
 def shout(name):
   name = name.upper()
   return name
  print(shout("Britney"))
 ```
- Ask students why we use the general word name as a parameter of the definition, but use a specific string "Britney" as the argument of the call?
- Ask students to come up with an explanation for why a method needs a puts statement to show you the answer. *Why is it better that the computer only prints information when you explicitly code it to do so?* One answer: Imagine if you're writing a complex program like a videogame, and hundreds of methods are being run every second. Would a user really want to see ALL that behind-the-scenes information?
- That's why we primarily use puts statements to debug our code. Ultimately, we want the computer to do most of the work behind the scenes, and only share *final* information with the user.
- ## Multiple-argument Methods
- Tell students that we will build a method that tells us how much it costs to go to Disney Land. Prices change a lot so if you want to look up that day's prices you can, but these rounded numbers are good for easy math.
- Share this information with students:
-Cost for adults: $100/ticket per day
-Cost for children: $90/ticket per day
- Ask students:
+
+Ask students why we use the general word name as a parameter of the definition, but use a specific string "Britney" as the argument of the call?
+
+Ask students to come up with an explanation for why a method needs a puts statement to show you the answer.
+
+*Why is it better that the computer only prints information when you explicitly code it to do so?*
+
+One answer: Imagine if you're writing a complex program like a videogame, and hundreds of methods are being run every second. Would a user really want to see ALL that behind-the-scenes information?
+
+That's why we primarily use puts statements to debug our code. Ultimately, we want the computer to do most of the work behind the scenes, and only share *final* information with the user.
+
+## Multiple-argument Methods
+Tell students that we will build a method that tells us how much it costs to go to Disney Land. Prices change a lot so if you want to look up that day's prices you can, but these rounded numbers are good for easy math.
+
+Share this information with students:
+
+- Cost for adults: $100/ticket per day
+- Cost for children: $90/ticket per day
+
+Ask students:
 * How much will it cost for 1 adult and 1 child to go for one day?
 * How much will it cost for 2 adults to go for three days?
 * How much will it cost for 1 adult and 2 children for one day?
- Ask students how they did these problems, and write their code somewhere they can see it. Identify that they're saying they did these things:
+ Ask students how they did these problems, and write their code somewhere they can see it.
+
+Identify that they're saying they did these things:
 1. Multiply adults times 100.
 2. Multiply children times 90.
 3. Add these two values together.
 4. Multiply that by the number of days.
+
+
 (Obviously, some kiddos will have different methods. Validate these and high five these students for finding different solutions)
- Before starting, ask "So which pieces of information do we need from a family before we can calculate their cost?"
+
+Before starting, ask "So which pieces of information do we need from a family before we can calculate their cost?"
+
 Students will identify number of adults, number of children, and number of days as the necessary information. Once these are identified, say "So we'll need three parameters to define our method, and we'll provide three arguments when we call it. "
- ```python
+
+```python
 def costOfDisneyFor(number_of_adults, number_of_children, number_of_days):
   adult_cost = number_of_adults * 100
   print("Calculated adult cost at", adult_cost) # We'll use this debug statement to make sure our code is running.
@@ -97,38 +129,51 @@ def costOfDisneyFor(number_of_adults, number_of_children, number_of_days):
 * What datatype will the return value be?
 * How many internal lines of code are there in this method?
 * Right now, if we ran this program, nothing would actually happen. Why is that?
- Once students identify that the method has never been called, and that the return is never printed out, refactor the program.
- ```python
+
+Once students identify that the method has never been called, and that the return is never printed out, refactor the program.
+
+```python
 costOfDisneyFor(*,*,*)
 # OR
 print(costOfDisneyFor(*,*,*))
 ```
- When you arrive at the asterisks, ask students "What information do I need for my first argument? What datatype should it be?" Make up any number of adults, children, and days, but make sure that students identify them and can tell you WHAT you're calculating before you run it.
- Once you run this successfully on a few test cases, ask "How would I compute the cost of bringing 43 adults and 67 children to Disney for 5 days?"
- Ask what questions students have. Try to push them to think through some edge cases:
+
+When you arrive at the asterisks, ask students "What information do I need for my first argument? What datatype should it be?" Make up any number of adults, children, and days, but make sure that students identify them and can tell you WHAT you're calculating before you run it.
+
+
+Once you run this successfully on a few test cases, ask "How would I compute the cost of bringing 43 adults and 67 children to Disney for 5 days?"
+Ask what questions students have. Try to push them to think through some edge cases:
+
 * What happens if we put in strings instead of numbers?
 * What happens if we forget to include the third piece of information: number of days?
 * What happens if we don't puts the call of the function?
- #### Playtime
+
+#### Playtime
  * Write a method that takes in a string as an argument and returns the number of letters in that string
- ```python
+
+```python
 def how_long(string):
   return len(string)
 ```
+
  * Write a method that takes in three numbers and product of all three
- ```python
+
+```python
 def product_three(num1, num2, num3):
   ans = num1 * num2 * num3
   return ans
 ```
+
 * Write a method that takes in a user's name and then returns their name with a greeting
- ```python
+
+```python
 def name(user_name):
   greeting = "hello "+ user_name +" what a strange name"
   return greeting
 ```
+
 #### Takeaways
- * METHODS - explain what a method is and why it's used
+* METHODS - explain what a method is and why it's used
 * METHODS - use built in methods for each data type and structure
 * METHODS - create a custom method using def and end key words
 * METHODS - explain what a return value is and what it's used for
@@ -197,11 +242,12 @@ def add(x, y):
  # Call
 print(add(5, 22))
 ```
- Ask students to predict what will happen when we try to return EVERY line of code. Anticipate the following:
+Ask students to predict what will happen when we try to return EVERY line of code. Anticipate the following:
 * It will print out all four.
 * It will print only the last one.
 * It will print only the first one.
  Clarify that a when a method reaches a return value, it stops executing the method and immediately returns that value. This is great! It saves time and processing power; why keep looking for more returns when you've already found one?
- #### Takeaways
- * METHODS - describe what will happen when there is no explicit return
+
+#### Takeaways
+* METHODS - describe what will happen when there is no explicit return
 * METHODS - explain that the first return will prevent the rest of a method from running

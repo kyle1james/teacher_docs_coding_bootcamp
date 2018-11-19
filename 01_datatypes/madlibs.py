@@ -4,7 +4,11 @@
 
 # create two adjective variables
 
-# Use string interpolation to make a madlibs out of the follow string variables
+# create two noun variables
+
+# Use string interpolation to make a madlibs
+# If you can't think of a madlib, use the following strings
+
 
 madlib_one = "Awed and profoundly moved after witnessing such Zen-like "
 madlib_two = ",sources close to pistachio-eater "
@@ -13,11 +17,6 @@ madlib_four = "while snacking on the shelled seeds. "
 
 
 # string it all together now!
-
-
-
-
-
 
 # create your own madlib using user input!
 
@@ -28,8 +27,6 @@ madlib_four = "while snacking on the shelled seeds. "
 # collect one adjective from the user and save it in a variables
 
 # string it all together
-
-
 
 # if you are having a hard time use the following string for your madlib
 
