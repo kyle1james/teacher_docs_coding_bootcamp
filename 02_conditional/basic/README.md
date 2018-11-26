@@ -5,9 +5,8 @@
 #### Sequence
 
 1. [If/else](#if/else)
-2. [planning](#planning)
-3. [Day Two](#day_two)
-4. [Design Cycle](#Design-cycle-for-programming)
+2. [code-a-long](#code-a-long)
+3. [planning](#planning)
 
 
 ## if/else
@@ -27,12 +26,12 @@ else:
 
 ```
 
-This program is able to make a decision. What decision is it making?
+Right, this program is able to make a decision. What decision is it making?
 
 Right, it makes a decision based on age.
 
 
-When you create a program, you will have to control the direction your program moves. That is, how does your program make decisions? For example, you will want to execute a certain line of code if one condition is satisfied, and a different set of code if it is not. In Python, you have the if, elif and the else statements for this purpose [source](https://www.datacamp.com/community/tutorials/python-if-elif-else)
+When you create a program, you will have to control the direction your program moves. For example, you will want to execute a certain line of code if one condition is satisfied, like age, and a different set of code if it is not. In Python, you have the if, elif and the else statements for this purpose [source](https://www.datacamp.com/community/tutorials/python-if-elif-else)
 
 The syntax for an if/else statement is as follows
 
@@ -56,9 +55,41 @@ Ask the following facts/facts to students about if/else statements
 - What is an elif statement: The elif keyword is a way of saying "if the previous conditions were not true, then try this condition".
 - Why doesn't the else statement need a condition?: The else statement should be the final case. There are no conditions following an else. It is the logical last choice.
 
+## Code A Long
+Have students code with you a quick age check program.
+
+Let's create a short program that will print out a unique message based on your age.
+
+```Python
+
+age = int(input('how old are you?'))
+
+if age > 10:
+  print('you are soooo young!')
+elif age > 15:
+  print('you should get a job')
+else:
+  print('you are so old')
+
+```
+Have students predict how they could break this program
+
+- If you put any age from 0-10, the program will print out you are so old. It is very important to think your conditions through when creating an if/else
+
+- what if you want a condition to be 15 or greater for an age? Simple, use the correct operator. It is very important to think your operators through when using if/else statements.
+
+```Python
+if age >= 15:
+  # do something
+```
+
+Have students fix the above code.
 
 ## planning
-For you lab, you will create a login for a user. We want to plan this program out, then complete the lab.
+For your lab, you will create a login for a user. We want to plan this program out, then complete the lab.
 
+- Have a user set a password
+- Have user try to login using password
+- Spicy: try using a username and password
 
 ![logic](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/If-Then-Else-diagram.svg/220px-If-Then-Else-diagram.svg.png)

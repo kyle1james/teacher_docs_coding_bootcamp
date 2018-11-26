@@ -1,5 +1,7 @@
 # Intro to Programming
 
+[coding music](https://www.youtube.com/watch?v=gd6nEquwuhM)
+
 [Return to Overview](https://github.com/kyle1james/teacher_docs_coding_bootcamp/blob/master/README.md)
 
 #### Sequence
