@@ -24,9 +24,9 @@ Explain that `print` will print what is inside the parentheses. And anything in 
 
 #### Playtime
 
-* Print out a few more statements. Examples:
-Say "hello” a few different ways or even in a few different languages
-Ask a few follow up questions. Ex. How are you?
+Print out a few more statements. Examples:
+- Say *hello* a few different ways or even in a few different languages
+- Ask a few follow up questions. Ex. How are you?
 
 #### Variables
 
@@ -99,7 +99,9 @@ This will trigger an intentional error since numbers are a different data type t
 Run the program and change the variables based on students in the class.
 
 
-Change the second question from an age question to something else such as favorite food.
+Change the second question from an age question to something else such as
+- favorite food
+
 
 ```python
 name = input("what is your name?”)
@@ -108,14 +110,16 @@ food = input("What is your favorite food?”)
 print(food + ", sounds yummy!”)
 ```
 
+Ask students what other things we would like the chatbot to know.
 
 ## Chatbot lab
 Today you are going to create a chatbot program.
 
 - Create a chatbot that will talk with the user to ask them about the following
-Name
-Favorite food
-Secret word or phrase
+  - Name
+  - Favorite food
+  - Secret word or phrase
+  - Other questions
 
 - Take the user input and return it back to them in the chatbot’s response before moving onto the next question.
 
