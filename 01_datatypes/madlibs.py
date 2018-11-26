@@ -1,25 +1,11 @@
-################### Madlibs ###########################################################################
+################### Chat Bot ###########################################################################
+# Create a chat bot that will ask a user several questions and reply back
 
-# create a variable for name
+# example
+name = input('what is your name')
+print('hello', name, 'I am HAL')
 
-# create a two adverb variables
-
-# create two adjective variables
-
-# create two noun variables
-
-# Use string interpolation to make a madlibs
-# If you can't think of a madlib, use the following strings
-
-
-madlib_one = "Awed and profoundly moved after witnessing such Zen-like "
-madlib_two = ",sources close to pistachio-eater "
-madlib_three = "confirmed Wednesday that he had achieved a complete state "
-madlib_four = "while snacking on the shelled seeds. "
-
-# string it all together now!
-
-################### User Input ###########################################################################
+################### Spicy: User Input ###########################################################################
 
 # create your own madlib using user input!
 

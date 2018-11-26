@@ -74,6 +74,8 @@ And the output is the variable
 
 Run the program and change the variables based on students in the class.
 
+NOTE: NUMBERS WILL CAUSE BUGS due to the data type. Steer students to strings.
+
 ## Madlib lab
 Today you are going to create a madlib program.
 
