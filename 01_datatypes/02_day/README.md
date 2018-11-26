@@ -2,24 +2,38 @@
 
 [Return to Overview](https://github.com/kyle1james/teacher_docs_coding_bootcamp/blob/master/README.md)
 
+
+# Intro to Programming
+
+[Return to Overview](https://github.com/kyle1james/teacher_docs_coding_bootcamp/blob/master/README.md)
+
 #### Sequence
 
 1. [Intro](#strings)
 2. [String Interpolation](#string-interpolation)
 3. [User Input](#user-input)
-4. [Lab](#madlib-lab)
+4. [Lab](#chatbot-lab)
 5. [Day Two](#day_two)
 6. [Operators](#operators)
 7. [Debugging](#debugging)
 
-
-## Intro
+## Hello World
 
 First, code the following. Have students wait until you are done to do the same but for their name.
 
 ```python
 print('hello Kyle')
 ```
+
+Name that `print` will print anything in parentheses. And anything in quotes is a **String** of characters. A string essentially represents a word or phrase.
+
+
+#### Playtime
+
+* Print out a few more statements. Examples:
+Say “hello” a few different ways or even in a few different languages
+Ask a few follow up questions. Ex. How are you?
+
 
 Awesome, now while this great, it can get very boring very quick. Imagine you have to say hello to 1000 people. Who wants to write 1000's hello's!? There has got to be a better way.
 
@@ -76,10 +90,28 @@ Run the program and change the variables based on students in the class.
 
 NOTE: NUMBERS WILL CAUSE BUGS due to the data type. Steer students to strings.
 
-## Madlib lab
-Today you are going to create a madlib program.
+## Chatbot lab
+Today you are going to create a chatbot program.
 
-- explain what is a madlib
+- Create a chatbot that will talk with the user to ask them about the following
+Name
+Age
+Favorite food
+Secret word or phrase
+Lucky number
+
+- Take the user input and return it back to them in the chatbot’s response before moving onto the next question.
+
+### CHALLENGE ZONE
+
+The Turing test is a test of artificial intelligence proposed by Alan Turing. If a computer can participate in a conversation with a human without that human suspecting that it is a computer, then the computer could be said to be artificially intelligent.
+
+See how convincing you can make your chatbot’s conversation.
+
+#### PANIC ZONE!
+
+- Print out a 5-sentence story with 5 different statements
+
 
 # Day Two
 ## Operators
