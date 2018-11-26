@@ -86,8 +86,8 @@ And the output is the variable
 Let’s add to program. We now know enough to create a basic chatbot.
 
 ```python
-name = input("what is your name?”)
-print("hello” +name)
+name = input("what is your name?")
+print("hello" +name)
 age = input("how old are you, ” + name + " ?")
 print("Wow, you are ” + age + " years old”)
 ```
