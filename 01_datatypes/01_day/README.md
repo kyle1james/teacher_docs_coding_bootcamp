@@ -15,7 +15,7 @@
 First, code the following. Have students wait until you are done to do the same but for their name.
 
 ```python
-print(“hello Kyle”)
+print("hello Kyle”)
 ```
 
 
@@ -25,13 +25,13 @@ Explain that `print` will print what is inside the parentheses. And anything in 
 #### Playtime
 
 * Print out a few more statements. Examples:
-Say “hello” a few different ways or even in a few different languages
+Say "hello” a few different ways or even in a few different languages
 Ask a few follow up questions. Ex. How are you?
 
 #### Variables
 
 ```python
-name = “Kyle”
+name = "Kyle”
 print('hello '+ name)
 ```
 Explain that name is a variable, not a string. In computer science, a variable is a placeholder and we assign a value to it.
@@ -47,10 +47,10 @@ In python, to define a variable you give a name and then a value. The name is al
 Let’s try changing our variable. Underneath let’s add a new value for name and print again.
 
 ```python
-name = “Kyle”
-print(“hello “+ name)
-name = “Matt”
-print(“hello “+ name)
+name = "Kyle”
+print("hello "+ name)
+name = "Matt”
+print("hello "+ name)
 ```
 
 Questions:
@@ -62,10 +62,10 @@ Questions:
 Let's code a few variables together. Ask students, make sure to stay with string datatypes!
 
 ```python
-name = “Eddie”
-food = “Pizza”
+name = "Eddie”
+food = "Pizza”
 
-print(“hello my name is '+name+'and I love” + food)
+print("hello my name is '+name+'and I love” + food)
 
 ```
 
@@ -73,8 +73,8 @@ print(“hello my name is '+name+'and I love” + food)
 So far this great, but we are just printing out the same statements that we coded. What if you want to get user input?
 
 ```python
-name = input(“what is your name?”)
-print(“hello” +name)
+name = input("what is your name?")
+print("hello" +name)
 ```
 
 - Have students predict what will happen, then run the code.
@@ -86,10 +86,10 @@ And the output is the variable
 Let’s add to program. We now know enough to create a basic chatbot.
 
 ```python
-name = input(“what is your name?”)
-print(“hello” +name)
-age = input(“how old are you, ” + name + “ ?”)
-print(“Wow, you are ” + age + “ years old”)
+name = input("what is your name?”)
+print("hello” +name)
+age = input("how old are you, ” + name + " ?”)
+print("Wow, you are ” + age + " years old”)
 ```
 
 Before you run the program, have students predict what will happen.
@@ -102,10 +102,10 @@ Run the program and change the variables based on students in the class.
 Change the second question from an age question to something else such as favorite food.
 
 ```python
-name = input(“what is your name?”)
-print(“hello” +name)
-food = input(“What is your favorite food?”)
-print(food + “, sounds yummy!”)
+name = input("what is your name?”)
+print("hello” +name)
+food = input("What is your favorite food?”)
+print(food + ", sounds yummy!”)
 ```
 
 
