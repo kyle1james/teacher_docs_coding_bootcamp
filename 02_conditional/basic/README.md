@@ -5,7 +5,7 @@
 #### Sequence
 
 1. [If/else](#if/else)
-2. [Operators](#operators)
+2. [planning](#planning)
 3. [Day Two](#day_two)
 4. [Design Cycle](#Design-cycle-for-programming)
 
@@ -56,12 +56,9 @@ Ask the following facts/facts to students about if/else statements
 - What is an elif statement: The elif keyword is a way of saying "if the previous conditions were not true, then try this condition".
 - Why doesn't the else statement need a condition?: The else statement should be the final case. There are no conditions following an else. It is the logical last choice.
 
-The syntax for an if/else statement is as follows
-```python
-if(condition):
-      #Indented statement block for when condition is TRUE
-elif(condition):
-      #Indented statement block for when condition is True
-else:
-      #Indented statement block for when condition is FALSE
-```
+
+## planning
+For you lab, you will create a login for a user. We want to plan this program out, then complete the lab.
+
+
+![logic](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/If-Then-Else-diagram.svg/220px-If-Then-Else-diagram.svg.png)
