@@ -83,16 +83,25 @@ if age >= 15:
   # do something
 ```
 
-Have students fix the above code.
+
+## conditional operators
+Have students fix the above code after going over operators
+
+![operators](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdun9nPP7I_h_fuVYgJzqMwdahubYrbD8cmuOGWYNN4UGo1eGIWw)
+
+Looking at these operators, what changes can we make to help our program?
+
+- using less than or equal to
 
 ## planning
 For your lab, you will create a login for a user. We want to plan this program out, then complete the lab.
 
 Questions:
-- What is the input?
-- How will you check the password 
-- Have a user set a password
-- Have user try to login using password
+- What is the input?: user input to set password and to login
+- How will you check the password: equal to operator
+- Have a user set a password: variable
+- Have user try to login using password: variable
 - Spicy: try using a username and password
 
+Use this diagram to help students plan
 ![logic](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/If-Then-Else-diagram.svg/220px-If-Then-Else-diagram.svg.png)
