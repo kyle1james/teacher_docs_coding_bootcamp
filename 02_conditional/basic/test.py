@@ -1,3 +1,4 @@
+# example of poorly planned if/else conditions
 age = int(input('how old are you?'))
 
 if age > 10:
