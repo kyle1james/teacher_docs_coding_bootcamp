@@ -1,3 +1,8 @@
+########################### Panic Zone #######################################################################################################################################################
+# Create a program that suggest what type of food you should eat
+# Based on the weather. For example, if it is hot have hamburgers, else have soup
+# Add in location to take this to the next level
+
 ########################### Password Login #######################################################################################################################################################
 # For your lab, you will create a login for a user. We want to plan this program out, then complete the lab.
 
