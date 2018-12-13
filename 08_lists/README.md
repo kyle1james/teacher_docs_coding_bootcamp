@@ -10,7 +10,8 @@
 4. [iteration](#iteration)
 5. [built in functions](#built-in-functions)
 
-
+## Warmup
+ Write and store your favorite foods, bands, and places. Save each place to a variable.
 
 ## lists
 Lists are a basic and powerful data structure in Python. Lists are made with square brackets [], each item is separated by a comma,

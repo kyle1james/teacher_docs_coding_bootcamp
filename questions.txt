@@ -5,4 +5,6 @@
 
 3.) lab for list day
 
-4.) Break down requirements for projects
+4.) lab for hash day (decrypt based on secret messages game inspired?)
+
+5.) Break down requirements for projects
