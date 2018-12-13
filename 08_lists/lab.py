@@ -7,3 +7,7 @@
     # You can assume that you are only given words.
     # You cannot assume the size of the array.
     # You can assume that you will always get an array.
+
+################## Panic Zone ###########################
+# create a function that will take in a list
+# and add ly to every word in that list

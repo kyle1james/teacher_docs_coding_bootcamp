@@ -3,7 +3,12 @@
 # a user asks a questions and then shakes the magic 8-ball
 # the magic 8 ball returns a random message
 
-#################### Choose Your Own Adventure ############################################################
+####################   Dice    ############################################################
+# Create a function that has a player roll dice
+# if the player rolls double 7's the win
+# if the player rolls double 1's they are out
+# they player gets three rolls
+# can you randomize the numbers?
 
 #################### Spicy: Code Wars ############################################################
 # Lvl 8

@@ -1,26 +1,25 @@
 # Scope
 
-### Data types & Variables
+### Data types & Variables  (4)
 - strings
 - integers
 - booleans
 
-### Control Flow
-- conditional statements 
+### Control Flow            (2)
+- conditional statements
 - lab day
 
-### Functions
-- built in functions
+### Functions               (3)
 - user created functions
 - lab day
 
-### Data Structures
+### Data Structures         (3)
 - Arrays and For loops
 - Hashes
 - lab day
 
-### Project Prep
+### Project Prep            (2)
 - Multi-case conditionals
-- Algorithmic thinking
+- Algorithmic thinking & While Loops
 
 ### Capstone Project

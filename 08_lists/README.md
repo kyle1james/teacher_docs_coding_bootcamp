@@ -8,6 +8,7 @@
 2. [index](#index-value)
 3. [list built-in functions](#list-built-in-functions)
 4. [iteration](#iteration)
+5. [built in functions](#built-in-functions)
 
 
 
@@ -73,9 +74,31 @@ have students remove one food item
 ## iteration
 Have students code with you.
 
+
 Let's create a short program that will print out all the food in our list.
 
 ```python
+snacks = ['pizza', 'tacos', 'sushi', 'banh-mi']
 for food in snacks:
-  print(snacks)
+  print(food)
 ```
+
+- Have students predict what will happen if you change food to another word, say yum.
+
+That's right, food and yum are variables. It does not matter what you name them. What is important is to know what food and yum stand for.
+
+- Have students describe what food is doing when the code is being executed
+
+We call food the iterator. It is what is changing while the loop progress. Food will represent each item in the list.
+
+On the first loop or iteration, food will represent pizza.
+
+- Have students predict what food will represent on the second iteration.
+
+That's right, it will represent tacos.
+
+## built in functions
+
+Now that you know what an iterator is, you can design some cool algorithms with a few built in functions.
+
+We will be focusing on the built-in functions range and len

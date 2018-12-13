@@ -1,0 +1,8 @@
+1.) How far to go with for loops?
+
+2.) Remove the built-in function lesson as this comes up
+    naturally in conditionals, lists, hashes, for loops
+
+3.) lab for list day
+
+4.) Break down requirements for projects
