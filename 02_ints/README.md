@@ -7,9 +7,11 @@
 
 1. [Intro](#numbers)
 2. [Debugging](#debugging)
-3. [Lab](#chatbot-lab)
+3. [Random](#random)
 
-# Day Two
+## Warmup
+Have students look up how much older they are than Cleopatra.
+
 ## Numbers
 Have students predict the outcome:
 
@@ -91,3 +93,41 @@ x * y  | Multiplies values on either side of the operator
 x // y | Divides left hand operand by right hand operand
 x % y  | Modulus Divides left hand operand by right hand operand and returns remainder
 x ** y | Performs exponential (power) calculation on operators
+
+## random
+
+To make a game of chance, you can use random numbers. This is pretty easy to do in python.
+
+First, you import the random module
+
+```python
+import random
+```
+
+This allows us to use code that was already written.
+
+Next, to make a random number
+
+```python
+import random
+
+lotto = rand.randint(0,100)
+print(lotto)
+
+```
+
+Who can guess what (0,100) does?
+Right, it creates a random number between 0 and 100
+
+Who can guess what rand.randint does?
+
+rand.randint is how we call the code in the random module. Meaning, it is how we tell them computer we want a random integer.
+
+Who can guess how rand.randint works?
+
+rand.randint is a shortcut, which we call a function. A function accesses code that is already written. We can think of it as code neatly wrapped up into these words. Like a variable, but this variable does something. So, we call it a function.
+
+Why are functions helpful?
+- you don't have to keep rewriting code. It is reusable
+- you don't have to know how it works just how you want to use it
+- keeps our program looking nice and clean

@@ -1,3 +1,11 @@
+########################### Create your Own Game ###########################
+# Student groups list 8 ideas for what type of game to make
+# Ideas
+# Coffee drink suggestor
+# What dog are you
+# Which Save by the Bell Character are you
+
+
 ########################### Madlibs OR Chatbot Plus ###############################################################################################################################
 # create a more in-depth madlibs or chatbot with your new found skills!
 
