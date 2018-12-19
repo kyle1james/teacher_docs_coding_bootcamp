@@ -13,7 +13,7 @@
 7. [Returns as Breakpoints](#returns-as-breakpoints)
 
 ## Framing
-We've already been using methods - but they are all built into the core of Python, like len() and range() all take in an **argument** as *input* and produce some data called a **return value** as an *output*.
+We've already been using methods - but they are all built into the core of Python, like random.randint() and len() all take in an **argument** as *input* and produce some data called a **return value** as an *output*.
 
 
 So far, you've seen methods used like this:

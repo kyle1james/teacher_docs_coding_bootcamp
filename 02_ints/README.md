@@ -7,7 +7,11 @@
 
 1. [Intro](#numbers)
 2. [Debugging](#debugging)
-3. [Random](#random)
+3. [Playtime](#playtime)
+4. [Code Together](#code-together)
+5. [User Birthday](#return-user-birthday)
+6. [Student Lab](#student-lab)
+7. [Random](#random)
 
 ## Warmup
 Have students look up how much older they are than Cleopatra.
@@ -52,47 +56,88 @@ print(number + 10)
 ```
 
 
-#### Interpreting Errors
-
+###Interpreting Errors
 
 You should see something like this:
 
 ```python
 Traceback (most recent call last):
-  File "test.py", line 5, in <module>
-    print(number + 10)
+  File "test.py", line 4, in <module>
 TypeError: must be str, not int
 ```
-Ask where is the error
-- Traceback tells us where:
 
-Ask what the problem is
+- Ask where is the error
+- Traceback tells us where:
 - TypeError gives us the error.
 
 This happens because the user types the answer, which is a string. You can't add a string and a number.
 
 Have students predict the outcome of this program
-```python
 
+```python
 your_num = int(input('give me a num'))
-print(0 + '3')
+print(your_num + 3)
 ```
 
-Have students explain why this worked. What did the computer do?
 
+## Playtime
+Now that you can get user numbers, try to do some basic math. Use division, multiplication, addition, and subtraction.
 
-- ask students to guess what other mathematical operations you can preform
-- run through subtraction, multiplication, and division.
-- have students preform simple maths on large numbers
-
-Operator     | Meaning
+Operator   | Meaning
 ------------ | ------------
-x + y  | Adds values on either side of the operator
-x - y  | Subtracts right hand operand from left hand operand
-x * y  | Multiplies values on either side of the operator
-x // y | Divides left hand operand by right hand operand
-x % y  | Modulus Divides left hand operand by right hand operand and returns remainder
+x + y   | Adds values on either side of the operator
+x - y    | Subtracts right hand operand from left hand operand
+x * y   | Multiplies values on either side of the operator
+x // y   | Divides left hand operand by right hand operand
+x % y  | Modulus Divides left hand operand by right hand and returns remainder
 x ** y | Performs exponential (power) calculation on operators
+
+
+## Code Together
+Everyone knows how old they are, but do you know how many days you have been alive?
+
+Have students guess how many days they have been alive
+Write on the board guess that are too high and too low
+Remind students that we did user input last lesson by coding the following together
+
+```python
+name = input('what is your name')
+print('Hello', name, ' how are you?')
+```
+Next, have students code on their own the following variables:
+
+- birth year
+- birth day
+- birth month
+
+Return the user's birthday printed out in a string using string interpolation
+
+
+Now, prompt user for today's date, including the year, month, and date and assign each to a unique variable
+
+## Return user birthday
+```python
+print("Your birthday is " + birthdate + "/" + birthmonth + "/" + birthyear)
+```
+Awesome, now let's find out how many years you have been alive.
+
+What are the steps to finding out how many years you have been alive?
+- Create a new variable to hold the answer
+- The formula to calculate
+
+```python
+yearsAlive = currentyear - birthyear
+```
+
+## Student Lab
+Now, try to calculate the following:
+- How many months
+- How many weeks
+- How many days ( don't forget leap years!)
+- Try using the time module if you are super far ahead
+
+
+
 
 ## random
 

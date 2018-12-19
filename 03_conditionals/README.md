@@ -6,7 +6,8 @@
 
 1. [If/else](#if/else)
 2. [code-a-long](#code-a-long)
-3. [planning](#planning)
+3. [len](#len)
+4. [planning](#planning)
 
 
 ## if/else
@@ -92,6 +93,20 @@ Have students fix the above code after going over operators
 Looking at these operators, what changes can we make to help our program?
 
 - using less than or equal to
+
+## len()
+A fun and useful built-in function is len()
+
+Who can guess what len() does
+
+```python
+len('shibas')
+```
+
+Right, Len returns the number of characters in the string. This is useful when testing requirements, say for a password or correct credit card number.
+
+How does this built-in function work?
+
 
 ## planning
 For your lab, you will create a login for a user. We want to plan this program out, then complete the lab.
