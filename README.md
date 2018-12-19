@@ -2,7 +2,7 @@
 
 ### Data types & Variables  (4)
 - strings
-- integers
+- integers & built-in function intro 
 - booleans
 
 ### Control Flow            (2)
