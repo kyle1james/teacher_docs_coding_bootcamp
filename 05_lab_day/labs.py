@@ -1,3 +1,10 @@
+########################### Buzzfeed Quiz #######################################################################################################################################################
+# Create a program that is like a buzzfeed quiz
+# What Hogwarts house do you belong in
+# What superhero are you
+# What tv/ movie character are you?
+# a program that suggest what type of food you should eat
+
 ########################### Create your Own Game ###########################
 # Student groups list 8 ideas for what type of game to make
 # Ideas

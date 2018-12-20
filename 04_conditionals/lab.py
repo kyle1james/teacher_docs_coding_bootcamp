@@ -3,14 +3,6 @@
 # input: user age
 # output: sassy response based on user age
 
-
-########################### Buzzfeed Quiz #######################################################################################################################################################
-# Create a program that is like a buzzfeed quiz
-# What Hogwarts house do you belong in
-# What superhero are you
-# What tv/ movie character are you?
-# a program that suggest what type of food you should eat
-
 ########################### Password Login #######################################################################################################################################################
 # For your lab, you will create a login for a user. We want to plan this program out, then complete the lab.
 
